@@ -1,0 +1,119 @@
+/*GLOBAL CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+/*STYLE FOR SINGLE PAGE*/
+body {
+  background-color: #9c9c9c;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 70px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 50px;
+}
+
+nav ul li a:hover {
+  color: blue;
+  transition: all ease-in-out 0.375s;
+}
+
+/*MENU A TENDINA*/
+.navbar {
+  position: relative;
+}
+
+#mySkills-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 30px;
+}
+
+#mySkills-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+#mySkills-menu li {
+  margin-bottom: 10px;
+}
+
+/*MAIN*/
+main {
+    margin-top: 100px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+main #section-home {
+    text-align: center;
+}
+
+main #section-about p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+main #section-skills p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.list-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-contact li {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}

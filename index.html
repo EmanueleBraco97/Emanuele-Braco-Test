@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Esercizio - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#section-home">Home</a>
+          </li>
+          <li>
+            <a href="#section-about">About</a>
+          </li>
+          <li>
+            <a href="#section-contact-me">Contact Me</a>
+          </li>
+          <li id="mySkills-link">
+            <a href="#section-skills">Skills</a>
+          </li>
+        </ul>
+
+
+        <!--SKILLS, che all'atterramento della pagina non sarà visibile-->
+        <div id="mySkills-menu" style="display: none">
+          <ul>
+            <li style="color: red; font-weight: bold; text-transform: uppercase;">HTML</li>
+            <li style="color:blue; font-weight: bold; text-transform: uppercase;">CSS</li>
+            <li style="color:brown; font-weight: bold; text-transform: uppercase;">JavaScript</li>
+            <li style="color: green; font-weight: bold; text-transform: uppercase;">React</li>
+            <li style="color: bisque; font-weight: bold; text-transform: uppercase;">Node.js</li>
+            <li style="color: cornflowerblue; font-weight: bold; text-transform: uppercase;">Php</li>
+            <li style="font-weight: bold; text-transform: uppercase;">DB-SQL</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section id="section-home">
+            <h2>Sono Emanuele Braco e alla classica domanda: 'Cosa fai nella vita'? la risposta che segue è sempre la stessa: <br>
+                'Sto nel settore informatico', nulla di serio
+            </h2>
+        </section>
+        <hr>
+        <section id="section-about">
+            <h2>CHI SONO:</h2>
+            <p>Sono Emanuele Braco, ho 25 anni, vengo da Napoli, ho frequentato un corso per FullStack Developer, <br>
+                sto ancora facendo formazione e corsi, prediligo molto di più la parte Frontend, ma sono aperto <br>
+                ad apprendere e conoscere nuovi strumenti, anche se sono inerenti al Backend.
+            </p>
+        </section>
+        <hr>
+        <section id="section-skills">
+            <h2>MY SKILLS:</h2>
+            <p>Se hai avuto modo di cliccare nella navbar, su 'Skills', avrai potuto notare le tecnologie che ho appreso; <br>
+               se non hai cliccato, niente paura, te le introduco io: <br>
+               Ho iniziato approcciando lato Frontend, con <strong>HTML, CSS</strong> per quanto riguarda Markup e Stile.<br>
+               Come linguaggio di Programmazione subito su <strong>Javascript</strong> e varie librerie come <strong>React e Angular.</strong> <br>
+               Lato Backend ho avuto delle infarinature con <strong>Node.Js, PHP</strong> ed ho avuto un po' modo di lavorare con <strong>DATABASE-SQL Relazionali.</strong>
+            
+            </p>
+        </section>
+        <hr>
+        <section id="section-contact-me">
+            <h2>Ecco i miei contatti e dove potete trovarmi:</h2>
+            <ul class="list-contact">
+                <li>
+                    <a href="https://github.com/EmanueleBraco97" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/emanuele-braco-2b443b184/">Linkedin</a>
+                </li>
+                <li>
+                    <strong>Email:</strong> emanuele.braco@gmail.com
+                </li>
+                
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
